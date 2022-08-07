@@ -2,102 +2,101 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <title>urban.gg</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="css/index_style_responsive.css">
-  <link rel="stylesheet" href="css/index_style.css">
-  <!-- Fonts -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-    crossorigin="anonymous">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+    <meta charset="utf-8" />
+    <title>urban.gg</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/index_style_responsive.css">
+    <link rel="stylesheet" href="css/index_style.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
 </head>
 <header>
-  <h1 class="mainTitle">
-    &lt;urban.gg&gt;
-  </h1>
+    <h1 class="mainTitle">
+        &lt;urban.gg&gt;
+    </h1>
 </header>
 
 <body>
-  <!-- My Projects -->
-  <section class="myProjects">
-    <!-- Swiper -->
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
+    <!-- My Projects -->
+    <section class="myProjects">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
 
-        <!-- Hurikan -->
-        <div class="swiper-slide" id="hurikan">
-          <div class="swiper-slide__title">
-            Hurikan
-            <div class="swiper-slide__text">
-              Hurikan is an experimental game engine created using modern C++ and OpenGL.
+                <!-- Hurikan -->
+                <a class="swiper-slide swiper-slide_a" id="hurikan" href="https://www.github.com/ezyyn/Hurikan">
+                    <div class="swiper-slide__title">
+                        Hurikan
+                        <div class="swiper-slide__text">
+                            Hurikan is an experimental game engine created using modern C++ and OpenGL.
+                        </div>
+
+                        <img class="swiper-slide__image" src="img/githubLogo_64px_dark.png"></img>
+                    </div>
+                </a>
+
+                <!-- Pangolin -->
+                <a class="swiper-slide swiper-slide_a" id="pangolin" href="https://www.github.com/ezyyn/Pangolin">
+                    <div class="swiper-slide__title">
+                        Pangolin
+                        <div class="swiper-slide__text">
+                            Pangolin is an experimental game engine created using modern C++ and Vulkan.
+                        </div>
+
+                        <img class="swiper-slide__image" src="img/githubLogo_64px_dark.png"></img>
+                    </div>
+                </a>
+
+                <!-- ECAL -->
+                <a class="swiper-slide swiper-slide_a" id="ecal" href="#">
+                    <div class="swiper-slide__title">ECAL
+                        <div class="swiper-slide__text">
+                            ECAL is an easy-to-use audio library with format loaders created from scratch using Windows
+                            API. Currently
+                            Windows-only.
+                        </div>
+
+                        <img class="swiper-slide__image" src="img/githubLogo_64px_dark.png"></img>
+                    </div>
+                </a>
             </div>
-
-            <a href="https://www.github.com/ezyyn/Hurikan"><img class="swiper-slide__image"
-                src="img/githubLogo_64px_dark.png"></img></a>
-          </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
+    </section>
+    <!---------------->
+    <!-- About Me -->
+    <section class="aboutMe">
+        <h2 class="aboutMe__title">About Me</h2>
+        <p class="aboutMe__text">Hi, my name is Lukas Urban, I am 20 and I make game engines.</p>
+        <p class="aboutMe__text">Since childhood I was fascinated about technology around me.
+            By the years this fascination gradually grew into a hobby.
+            I went to the <a href="https://www.uzlabina.cz">Secondary School of Electrical Engineering V Úžlabině</a> in
+            Prague
+            and started to learn about all kinds of technology. I learned how to program in C/C++/C#. I eventually
+            graduated
+            in 2022.
+            I've always been interested in playing games so I naturally wanted to know how to make one.
+            I came across several game engines but I wanted to understand how they work beneath the surface. This is
+            where
+            my passion for making game engines and game related software started.
+        </p>
+    </section>
 
-        <!-- Pangolin -->
-        <div class="swiper-slide" id="pangolin">
-          <div class="swiper-slide__title">
-            Pangolin
-            <div class="swiper-slide__text">
-              Pangolin is an experimental game engine created using modern C++ and Vulkan.
-            </div>
-
-            <a href="https://www.github.com/ezyyn/Pangolin"><img class="swiper-slide__image"
-                src="img/githubLogo_64px_dark.png"></img></a>
-          </div>
-        </div>
-
-        <!-- ECAL -->
-        <div class="swiper-slide" id="ecal">
-          <div class="swiper-slide__title">ECAL
-            <div class="swiper-slide__text">
-              ECAL is an easy-to-use audio library with format loaders created from scratch using Windows API. Currently
-              Windows-only.
-            </div>
-            <a href="https://www.github.com/ezyyn/Pangolin"><img class="swiper-slide__image"
-                src="img/githubLogo_64px_dark.png"></img></a>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-
-    </div>
-  </section>
-  <!---------------->
-  <section class="aboutMe">
-    <h2 class="aboutMe__title">About Me</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, urna consequat felis vehicula class ultricies mollis
-      dictumst, aenean non a in donec nulla. Phasellus ante pellentesque erat cum risus consequat imperdiet aliquam,
-      integer placerat et turpis mi eros nec lobortis taciti, vehicula nisl litora tellus ligula porttitor metus.
-
-      Vivamus integer non suscipit taciti mus etiam at primis tempor sagittis sit, euismod libero facilisi aptent
-      elementum felis blandit cursus gravida sociis erat ante, eleifend lectus nullam dapibus netus feugiat curae
-      curabitur est ad. Massa curae fringilla porttitor quam sollicitudin iaculis aptent leo ligula euismod dictumst,
-      orci penatibus mauris eros etiam praesent erat volutpat posuere hac. Metus fringilla nec ullamcorper odio aliquam
-      lacinia conubia mauris tempor, etiam ultricies proin quisque lectus sociis id tristique, integer phasellus taciti
-      pretium adipiscing tortor sagittis ligula.
-
-      Mollis pretium lorem primis senectus habitasse lectus scelerisque donec, ultricies tortor suspendisse adipiscing
-      fusce morbi volutpat pellentesque, consectetur mi risus molestie curae malesuada cum. Dignissim lacus convallis
-      massa mauris enim ad mattis magnis senectus montes, mollis taciti phasellus accumsan bibendum semper blandit
-      suspendisse faucibus nibh est, metus lobortis morbi cras magna vivamus per risus fermentum. Dapibus imperdiet
-      praesent magnis ridiculus congue gravida curabitur dictum sagittis, enim et magna sit inceptos sodales parturient
-      pharetra mollis, aenean vel nostra tellus commodo pretium sapien sociosqu.</p>
-  </section>
-  <!-- About Me -->
-  <!-- Scripts -->
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-  <script src="js/index_script.js"></script>
+    <section class="contacts">
+        <img class="emailIcon" src="img/emailIcon.png">
+        <div class="emailText">urbanlukas808@gmail.com</div>
+        </section>
+    <!-- Scripts -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/index_script.js"></script>
 </body>
 
 </html>
