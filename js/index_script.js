@@ -9,18 +9,15 @@ var swiper = new Swiper(".mySwiper", {
 
   // Responsive breakpoints
   breakpoints: {
-    // when window width is >= 320px
-    320: {
+    414: {
       slidesPerView: 1,
       spaceBetween: 40
     },
-    // when window width is >= 680px
-    720: {
+    700: {
       slidesPerView: 2,
       spaceBetween: 40
     },
-    // when window width is >= 900px
-    800: {
+    1224: {
       slidesPerView: 3,
       spaceBetween: 40,
     }
