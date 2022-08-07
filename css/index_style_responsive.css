@@ -125,10 +125,6 @@
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
-    .myProjects {
-        height: 50%;
-    }
-
     .swiper-slide:hover {
         transform: scale(1.1);
     }
