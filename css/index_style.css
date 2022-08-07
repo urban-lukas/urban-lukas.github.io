@@ -96,6 +96,7 @@ h3 {
   word-break: break-all;
   text-align: center;
   font-size: 18px;
+  max-height: 300px;
   user-select: none; /* Standard */
   background: rgb(87, 87, 87);
   border-radius: 10px;
