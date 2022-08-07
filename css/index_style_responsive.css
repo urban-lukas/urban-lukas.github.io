@@ -88,6 +88,10 @@
     .swiper-button-next::after {
         display: block;
     }
+
+    .aboutMe {
+        padding: 10px 0px;
+    }
 }
 
 /* iPhone 6+, 7+, 8+ ----------- */
