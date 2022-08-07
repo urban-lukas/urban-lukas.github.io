@@ -79,11 +79,6 @@
         font-size: 2.4vw;
     }
 
-    .swiper-button-prev:hover::after,
-    .swiper-button-next:hover::after {
-        transform: scale(1.1);
-    }
-
     .swiper-button-prev::after,
     .swiper-button-next::after {
         display: block;
