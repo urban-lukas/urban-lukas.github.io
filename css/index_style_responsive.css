@@ -71,6 +71,11 @@
     .swiper-button-next::after {
         display: block;
     }
+
+    .aboutMe {
+        padding: 10px 0px;
+    }
+
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
