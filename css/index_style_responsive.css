@@ -168,6 +168,9 @@
     .aboutMe:hover {
         transform: scale(1.05);
     }
+    .contacts:hover {
+        transform: scale(1.05);
+    }
 }
 
 /* Large screens ----------- */
