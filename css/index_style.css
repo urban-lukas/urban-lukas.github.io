@@ -177,15 +177,6 @@ h3 {
 
 /* Contacts */
 
-.contacts__title {
-    text-align: center;
-    font-weight: var(--fw-reg);
-    font-size: var(--fs-h2);
-    color: var(--clr-dark);
-
-    margin: 0% 45%;
-}
-
 .contacts {
     -webkit-font-smoothing: subpixel-antialiased;
     backface-visibility: hidden;
@@ -195,6 +186,16 @@ h3 {
     border-radius: 10px;
     background-color: beige;
     transition: all 0.3s ease-in;
+}
+
+
+.contacts__title {
+    text-align: center;
+    font-weight: var(--fw-reg);
+    font-size: var(--fs-h2);
+    color: var(--clr-dark);
+
+    margin: 0% 45%;
 }
 
 .emailIcon {
