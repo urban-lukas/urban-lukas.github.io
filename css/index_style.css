@@ -103,12 +103,17 @@ h3 {
     user-select: none;
     /* Standard */
     background: beige;
+    background-color: beige;
     border-radius: 10px;
     transition: all 200ms linear;
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#slide {
+    
 }
 
 .swiper-slide:hover {
