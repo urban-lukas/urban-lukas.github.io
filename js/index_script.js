@@ -1,12 +1,13 @@
 var swiper = new Swiper(".mySwiper", {
-  grabCursor: true,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-
-  // Responsive breakpoints
-  breakpoints: {
+    grabCursor: false,
+    centeredSlides: false,
+    loop: false,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    // Responsive breakpoints
+    breakpoints: {
     414: {
       slidesPerView: 1,
       spaceBetween: 40
