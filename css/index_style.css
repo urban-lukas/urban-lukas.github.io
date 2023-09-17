@@ -112,10 +112,6 @@ h3 {
     align-items: center;
 }
 
-#slide {
-    
-}
-
 .swiper-slide:hover {
     transform: scale(1.05);
  }
@@ -133,7 +129,6 @@ h3 {
 /* About Me */
 
 .aboutMe {
-    -webkit-font-smoothing: subpixel-antialiased;
     backface-visibility: hidden;
     margin: 40px 70px;
     padding: 30px 0px;
@@ -143,7 +138,7 @@ h3 {
 }
 
 .aboutMe:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .aboutMe__title {
@@ -164,7 +159,6 @@ h3 {
 /* Contacts */
 
 .contacts {
-    -webkit-font-smoothing: subpixel-antialiased;
     backface-visibility: hidden;
     margin: 40px 70px;
     margin-bottom: 30px;
@@ -175,7 +169,7 @@ h3 {
 }
 
 .contacts:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .contacts__title {
@@ -186,11 +180,12 @@ h3 {
 }
 
 .emailIcon {
-    float: left; 
+    float: left;
     max-width: 50px;
 }
 .emailText {
-    padding-top: 17px;
+    padding-top: 10px;
+    padding-left: 17px;
 }
 
 .footer__title {
